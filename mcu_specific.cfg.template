@@ -1,0 +1,9 @@
+
+# Deve indicar endereço serial e configurações específicas de comunição com a MCU
+#[mcu]
+#serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_32FFDA055359393541731843-if00
+#restart_method = command
+
+# Mini E3 v2.0
+#[static_digital_output usb_pullup_enable]
+#pins: !PA14
